@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 5px 0 25px rgba(0, 0, 0, .3);
+    position: fixed;
+    z-index: 1;
+}
+
+.heading {
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+    padding: 10px 16px 10px 8px;
+}
+
+.heading:hover {
+    background-color: #c4c2c2;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    letter-spacing: 4px;
+    font-size: 18px;
+    color: black;
+}
+
+.nav-links a:hover {
+    background-color: #c4c2c2;
+    padding: 5px;
+}
+
+.contact {
+    margin-right: 30px;
+}
+
+
+header img {
+    max-width: 100%;
+}
+
+.header-image p {
+    font-size: 40px;
+    color: #5a5a5a;
+    letter-spacing: 5px;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+    position: absolute;
+    left: 35px;
+    top: 720px;
+}
+
+/* section2 */
+
+.section-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-wrapper {
+    display: flex;
+    width: 80%;
+    margin: 102px 0;
+    /* overflow: hidden; */
+    /* height: 700px; */
+}
+
+.about-catering-img{
+    width: 50%;
+    height: 100%;
+
+    /* padding: 12px 24px; */
+}
+
+.about-catering-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-catering-text {
+        width: 50%;
+        padding: 13px 0 0 50px;
+}
+
+.about-catering-text .about-catering-title {
+ font-size: 34px;
+ text-align: center;
+ letter-spacing: 5px;
+ line-height: 54px;
+ margin-bottom: 30px;
+}
+
+.about-catering-text .about-subtitle {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+.about-catering-text .about-body {
+    font-size: 18px;
+    text-align: start;
+    line-height: 27px;
+}
+
+span {
+    background-color: #bdb6b6;
+    padding: 2px;
+}
+
+.text-transp {
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 12px;
+}
+
+.border {
+    border: 1px solid rgb(247, 241, 241);
+    margin-bottom: 100px;
+    width: 1220px;
+    margin-left: 100px;
+}
+
+
+/* section-3 */
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-wrapper {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+}
+
+.text-area {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.text-area .title-text {
+    font-size: 37px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.text-area .text-1, .text-2, .text-3, .text-4, .text-5 {
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+.text-area .title-1-sub, .title-2-sub, .title-3-sub, .title-4-sub, .title-5-sub {
+    font-size: 15px ;
+    color: #757575;
+    margin-top: 25px;
+}
+
+ .section-3-image {
+    width: 50%;
+
+ }
+
+ .section-3-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ /* section 3 */
+
+ .contact-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .contact-wrapper {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 120px;
+    margin-top: 100px;
+    padding-top: 90px;
+    border-top: 1px solid rgb(247, 241, 241);
+ }
+
+ .contact-title {
+    font-size: 35px;
+    letter-spacing: 5px;
+ }
+
+
+ .contact-addr {
+    font-size: 18px;
+    color: #607d8b;
+    margin-top: 20px;
+ }
+
+ .contact-desc {
+    font-size: 15px;
+    text-align: start;
+    margin-top: 20px;
+    line-height: 25px;
+
+ }
+
+
+
+ form {
+    margin-top: 18px;
+    width: 100%;
+
+ }
+
+#name, #how-many, #date, #message {
+    border: none;
+    border-bottom: 1px solid rgb(223, 217, 217);
+    width: 100%;
+    padding: 30px;
+    padding-left: 0;
+
+}
+
+#btn {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 18px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+ /* footer */
+
+ footer {
+    max-width: 100%;
+    width: 100%;
+    height: 100px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+    
+
+ footer p {
+    font-size: 15px;
+ }
